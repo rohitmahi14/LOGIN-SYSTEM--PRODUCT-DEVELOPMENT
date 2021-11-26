@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#mydiv1 {
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    width:30em;
+    height:25em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    max-width: 500px;
+    padding: 40px;
+    background-image: linear-gradient(to right,darkgreen,white,darkgreen);
+   
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right top, violet,darkviolet,purple,yellow);
+    flex-direction: column;
+    height: 100vh;
+}
+label{
+    display: block;
+    color: yellow;
+    font-weight: bolder;
+    float: left;
+    margin-left: 2px;
+}
+#admin1,#admin2{
+    padding: 2px;
+    width: 200px;
+    display: block;
+    overflow: hidden;
+}
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+b{
+    color: white;
+}
+h4{
+    color:navy;
+    text-shadow: 2px 2px black;
+    text-align: center;}
